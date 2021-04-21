@@ -1,17 +1,177 @@
 body{
-    background-color: turquoise;
+    padding: 0px;
     margin: 0px;
 }
 .container{
-    width: 800px;
+    width: 1300px;
     margin: auto;
-    background-color: yellow;
+}
+header .container{
+    
     display: flex;
+    align-items: center;
+    height: 80px;
 }
 header{
-    background-color: yellowgreen;
+    border-top: rgb(61, 116, 61) solid 15px;
+
 }
-header img{
+header .logo{
     width: 50px;
     height: 50px;
+    margin-right: 900px;
 }
+header .menu{
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+}
+header .lupa{
+    width: 15px;
+    height: 15px;
+    margin-left:-20px;
+}
+input{
+    height: 25px;
+    width: 250px;
+}
+.banner{
+    background-image: url("https://github.com/fabio460/Starbucks_2.0/blob/master/assets/imagem/background1.jpeg?raw=true");
+    background-size: cover;
+    background-position: center;
+    width: 1519.5px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+}
+.banner h1{
+    font-size: 80px;
+    padding-top: 80px;
+}
+.fotos_banner{
+    display: flex;
+    
+}
+.fotos_banner img{
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    border: solid rgb(61, 116, 61) 5px;
+    margin: 20px;
+}
+section{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 2px;
+}
+
+.b2{
+    grid-row: 1/3;
+    grid-column: 2/3;
+    background-image: url("https://github.com/fabio460/Starbucks_2.0/blob/master/assets/imagem/background2.jpeg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+.b3{
+    background-image: url("https://github.com/fabio460/Starbucks_2.0/blob/master/assets/imagem/background3.jpeg?raw=true");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+.barra{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(61, 116, 61);
+}
+.bloco_texto,.bloco_texto_2{
+    padding: 50px;
+    
+}
+section a{
+    width: 120px;
+    border: solid 1px black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+section p{
+    margin-bottom: 30px;
+}
+section a:hover{
+    background-color: rgb(61, 116, 61);
+    color: white;
+}
+.bloco_texto_2{
+    grid-row:1/2;
+    grid-column:2/3;
+}
+.b2_2{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image: url("https://github.com/fabio460/Starbucks_2.0/blob/master/assets/imagem/background4.jpeg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+.b3_2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("https://github.com/fabio460/Starbucks_2.0/blob/master/assets/imagem/background5.jpeg?raw=true");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+.b2_3{
+    background-image: url("https://github.com/fabio460/Starbucks_2.0/blob/master/assets/imagem/background6.jpeg?raw=true");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.bloco_texto_3{
+    padding: 80px;
+    padding-top: 200px;
+    background-image: url("https://github.com/fabio460/Starbucks_2.0/blob/master/assets/imagem/background9.jpeg?raw=true");
+    background-position:left;
+    background-size: cover;
+}
+.bloco_texto_4{
+   
+    grid-column: 1/3;
+    height: 500px;
+    background-image: url("https://github.com/fabio460/Starbucks_2.0/blob/master/assets/imagem/background8.jpeg?raw=true");
+    background-position:left;
+    background-size:cover;
+}
+
+.container_b4{
+    width: 400px;
+    padding: 50px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+}
+footer p{
+    padding-top: 70px;
+    margin: 0px;
+}
+footer a{
+    color: rgb(61, 116, 61);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
